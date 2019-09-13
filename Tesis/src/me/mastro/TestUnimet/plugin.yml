@@ -1,0 +1,40 @@
+name: TestUnimet
+author: Mastro
+main: me.mastro.TestUnimet.Test
+version: 1.0
+description: Event Detection System.
+
+commands: 
+  System:
+    usage: /<command>
+    aliases: [System, Ctime, ctime]
+    description: Show system info. 
+  Rank:
+    usage: /<command>
+    aliases: [Rank,rank]
+    description: Display Player info.
+  Events:
+    usage: /<command>
+    aliases: [Events, events, eve]
+    description: Display event list.
+  Online:
+    usage: /<command>
+    aliases: [ShowOnline, so, SO]
+    description: Display Online Players. 
+  EnableTest:
+    usage: /<command>
+    aliases: [Enable, enable, et]
+    description: Enable test.
+  DisableTest:
+    usage: /<command>
+    aliases: [Disable, disable, dt]
+    description: Disable test.
+  Hello:
+    usage: /<command>
+    aliases: [Hello, hi]
+    description: test to mongo.     
+  Help:
+    usage: -<command>
+    aliases: [Help, yelp]
+    description: test to mongo.              
+     
